@@ -60,8 +60,8 @@ gulp.task('browser-sync', function() {
 	browserSync({ 
 		server: true,
 		server: { 
-			baseDir: 'dev/', 	// Директория  в которой лежат доступные страницы
-			index: "pages/index.html" 	// Начальная странице при обращении к localhost
+			baseDir: 'dev/pages', 	// Директория  в которой лежат доступные страницы
+			index: "/index.html" 	// Начальная странице при обращении к localhost
 		},
 		notify: false
 	})
