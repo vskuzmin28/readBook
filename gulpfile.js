@@ -60,8 +60,8 @@ gulp.task('browser-sync', function() {
 	browserSync({ 
 		server: true,
 		server: { 
-			baseDir: 'dev/pages', 	// Директория  в которой лежат доступные страницы
-			index: "/index.html" 	// Начальная странице при обращении к localhost
+			baseDir: 'dev/', 	// Директория  в которой лежат доступные страницы
+			index: "pages/index.html" 	// Начальная странице при обращении к localhost
 		},
 		notify: false
 	})
@@ -72,7 +72,7 @@ gulp.task('browser-sync', function() {
 gulp.task('watch', ['browser-sync'], function() {
 	gulp.watch('dev/**/*.pug', ['pug']);
 	gulp.watch('dev/**/*.less', ['less']);
-	gulp.watch('dev/img/**/*.*', ['png']);
+
 	gulp.watch('dev/**/*.css', browserSync.reload);
 	gulp.watch('dev/pages/*.html', browserSync.reload);
 })
