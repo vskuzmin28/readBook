@@ -131,6 +131,19 @@ p {
   color: #fff;
   text-decoration: none;
 }
+.table-of-contents-body p {
+  font: 14px 'tahoma';
+  text-align: center;
+  color: #fff;
+}
+.table-of-contents-body input[type="text"] {
+  margin: 20px auto;
+  width: 90%;
+  height: 96px;
+  background: #fff;
+  padding: 0 5%;
+  color: #000;
+}
 .icon-close {
   position: absolute;
   top: 5%;
@@ -149,4 +162,7 @@ p {
   color: #000;
   text-decoration: underline;
   background: url('../img/icons/icon-close-white.png') no-repeat left;
+}
+.exit-body {
+  margin-top: 18% !important;
 }
