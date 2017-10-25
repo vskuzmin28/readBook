@@ -94,7 +94,8 @@ p {
   height: 250px;
   background: #b4b4b4;
 }
-.table-of-contents-body-bg {
+.popup {
+  margin-top: -3%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -120,6 +121,7 @@ p {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 .table-of-contents-body ul li a,
 .table-of-contents-body ul li a:hover {
@@ -131,7 +133,8 @@ p {
 }
 .icon-close {
   position: absolute;
-  float: left;
+  top: 5%;
+  left: 3%;
   width: 170px;
   height: 23px;
   z-index: 999;
