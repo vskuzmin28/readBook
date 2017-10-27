@@ -166,6 +166,25 @@ p {
   text-decoration: underline;
   background: url('../img/icons/icon-close-white.png') no-repeat left;
 }
+.icon-back {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  width: 170px;
+  height: 23px;
+  z-index: 999;
+}
+.icon-back a,
+.icon-back a:hover {
+  display: block;
+  width: 170px;
+  height: 23px;
+  font: 16px 'tahoma';
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: underline;
+  background: url('../img/icons/icon-back.png') no-repeat left;
+}
 .exit-body {
   margin-top: 18% !important;
 }
