@@ -13,7 +13,9 @@ body {
 	cursor: default;
 	background: #e5e5e5;
 	overflow-x: hidden;
-	overflow-y: hidden;
+	margin: 0;
+	padding: 0;
+	//overflow-y: hidden;
 
 }
 
@@ -28,6 +30,9 @@ p {
 
 .readBook {
 	padding: 0;
+	margin: 0;
+	height: auto;
+	overflow: hidden;
 }
 
 // top panel
@@ -67,7 +72,8 @@ p {
 	position: absolute;
 	left: 0;
 	bottom: 5%;
-	width: 100%;
+	width: 90%;
+	margin: 0 5%;
 	height: 5px;
 }
 
@@ -401,6 +407,8 @@ p {
 	display: none !important;
 }
 
+// centered book content
+
 .content-book {
 	margin: 5% auto;
 	width: 90%;
@@ -408,5 +416,67 @@ p {
 	background: #f00;
 }
 
+// book shelf
+
+.bookshelf-body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+// type two
+
+.bookshelf__type-two-item {
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+	height: 100vh !important;
+
+	img {
+		margin: 25% auto;
+		width: 40%;
+		height: auto;
+	}
+
+}
+
+.book-1.col-lg-6.nopadding .bookshelf__type-two-item:nth-child(odd) {
+	background: #d7d9d8; /* Old browsers */
+	background: -moz-linear-gradient(top, #d7d9d8 0%, #ced1d0 24%, #b0b6b5 75%, #a7adad 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #d7d9d8 0%,#ced1d0 24%,#b0b6b5 75%,#a7adad 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #d7d9d8 0%,#ced1d0 24%,#b0b6b5 75%,#a7adad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d9d8', endColorstr='#a7adad',GradientType=0 ); /* IE6-9 */
+}
+
+// / type two
+
+.bookshelf__type-one-item {
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100%;
+	height: 100vh !important;
+	background: url('../img/book-bg.png') repeat-x center;
+
+	img {
+		margin: 10% auto;
+		width: 25%;
+		height: auto;
+	}
+
+}
+
+// type three
+
+.bookshelf__type-three-item {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 50vh !important;
+
+}
+
+// / type three
+
+.hidden {
+	display: none;
+}
 
 // STYLE SHIT FOR TABLE OF CONTENTS

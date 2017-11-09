@@ -14,7 +14,7 @@ html(lang='ru')
 
     .readBook(style="padding:0;margin:0;")
 
-      .space
+      //.space
 
       // bookshelf
 
@@ -22,60 +22,42 @@ html(lang='ru')
 
         // container
 
-        .container
+        .container.bookshelf-body
 
           .row
 
+            .book-1.col-lg-12.nopadding
+              .book-preview.bookshelf__type-one-item
+                img(src="../img/book.png" alt="@@")
+
+            .book-2.col-lg-6.nopadding.hidden
+              .book-preview.bookshelf__type-two-item
+                //img(src="../img/book.png" alt="@@")
+
+            .book-3.col-lg-3.nopadding.hidden
+              .book-preview.bookshelf__type-three-item
+                img(src="../img/book.png" alt="@@")
+
+            .book-4.col-lg-3.nopadding.hidden
+              .book-preview.bookshelf__type-three-item
+                img(src="../img/book.png" alt="@@")
+
+
+
+          .row.hidden
+
             .col-lg-3.nopadding
-              .book-preview
+              .book-preview.bookshelf__type-three-item
                 img(src="../img/book.png" alt="@@")
 
             .col-lg-3.nopadding
-              .book-preview
+              .book-preview.bookshelf__type-three-item
                 img(src="../img/book.png" alt="@@")
 
             .col-lg-3.nopadding
-              .book-preview
+              .book-preview.bookshelf__type-three-item
                 img(src="../img/book.png" alt="@@")
 
             .col-lg-3.nopadding
-              .book-preview
+              .book-preview.bookshelf__type-three-item
                 img(src="../img/book.png" alt="@@")
-
-      // bookshelf
-
-      .bookshelf
-
-        // container
-
-        .container
-
-          .row
-
-            .col-lg-3.nopadding
-              .book-preview
-                img(src="../img/book.png" alt="@@")
-
-            .col-lg-3.nopadding
-              .book-preview
-                img(src="../img/book.png" alt="@@")
-
-            .col-lg-3.nopadding
-              .book-preview
-                img(src="../img/book.png" alt="@@")
-
-            .col-lg-3.nopadding
-              .book-preview
-                img(src="../img/book.png" alt="@@")
-
-      // progress bar
-
-      .progressBar
-
-        // container
-
-        .container
-
-          .row
-
-            .col-lg-12
