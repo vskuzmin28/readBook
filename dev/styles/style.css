@@ -320,3 +320,8 @@ p {
 .wowbook-close {
   display: none !important;
 }
+.content-book {
+  margin: 2% auto;
+  width: 90%;
+  height: 80%;
+}
