@@ -321,6 +321,11 @@ p {
   height: 500px;
   color: #000 !important;
 }
+.wowbook-toc {
+  background: 0 !important;
+  width: auto !important;
+  border: 0 !important;
+}
 .wowbook-toc li,
 .wowbook-toc a,
 .wowbook-toc span {
