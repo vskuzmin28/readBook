@@ -336,6 +336,13 @@ p {
 .wowbook-toc span {
   color: #000 !important;
 }
+.wowbook-toc h1:before {
+  display: block;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background: #000;
+}
 .wowbook-close {
   display: none !important;
 }
