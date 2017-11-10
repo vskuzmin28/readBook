@@ -336,7 +336,12 @@ p {
 .wowbook-toc span {
   color: #000 !important;
   border: 0 !important;
-  font: 14px 'tahoma';
+  font: 16px 'tahoma' !important;
+}
+.wowbook-toc h1 {
+  font: 20px 'tahoma';
+  color: #000;
+  margin-bottom: 20px;
 }
 .wowbook-toc h1:after {
   margin-right: 20px;
