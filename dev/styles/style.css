@@ -344,8 +344,8 @@ p {
   position: absolute;
   width: 11px;
   height: 11px;
-  background: #000;
-  content: "";
+  background: 0;
+  content: "✕";
   font: 11px 'tahoma';
   color: #000;
 }
