@@ -333,7 +333,6 @@ p {
   margin: 5% auto;
   width: 90%;
   height: 80%;
-  background: #f00;
 }
 .bookshelf-body {
   margin: 0 !important;
@@ -346,7 +345,14 @@ p {
   height: 100vh !important;
 }
 .bookshelf__type-two-item img {
-  margin: 25% auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 40%;
   height: auto;
 }
@@ -371,7 +377,14 @@ p {
   background: url('../img/book-bg.png') repeat-x center;
 }
 .bookshelf__type-one-item img {
-  margin: 10% auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 25%;
   height: auto;
 }
