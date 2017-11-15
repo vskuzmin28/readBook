@@ -403,8 +403,8 @@ p {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 90%;
-  height: 70vh;
+  width: auto;
+  height: 50vh;
 }
 .bookshelf-body {
   margin: 0 !important;
@@ -485,6 +485,26 @@ p {
           align-items: center;
   width: 38%;
   height: auto;
+}
+@media (min-width: 1600px) and (max-width: 1900) {
+  .bookshelf__type-three-item {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 50vh !important;
+  }
+  .bookshelf__type-three-item img {
+    padding-top: 4%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 38%;
+    height: auto;
+  }
 }
 .hidden {
   display: none;
