@@ -60,7 +60,7 @@ p {
 .currentPage {
 	position: absolute;
 	right: 0;
-	width: 2%;
+	width: 3%;
 	height: 12px;
 	margin-top: -8px;
 	text-align: right;
@@ -71,7 +71,7 @@ p {
 .progressBar {
 	position: absolute;
 	left: 0;
-	bottom: 5%;
+	bottom: 5.5%;
 	width: 90%;
 	margin: 0 5%;
 	height: 5px;
@@ -81,6 +81,26 @@ p {
 	position: absolute;
 	left: 0;
 	width: 99%;
+}
+
+.progressBar__body__current-page {
+	margin-top: -22px;
+	position: absolute;
+	width: 100%;
+	height: 14px;
+	text-align: center;
+	font: 14px 'tahoma';
+	color: #000;
+}
+
+.progressBar__body__information {
+	margin-top: 10px;
+	position: absolute;
+	width: 100%;
+	height: 14px;
+	font: 14px 'tahoma';
+	text-align: center;
+	color: #000;
 }
 
 .progressBar__background {
@@ -96,9 +116,21 @@ p {
 	position: absolute;
 	width: 60%;
 	height: 5px;
-	background: #233a6e;
+	background: #b0c8cd;
 	z-index: 2;
 }
+
+.progressBar__status__romb {
+	top: -15px;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #5b827e;
+	right: -5px;
+	transform: rotate(45deg); 
+}
+
+
 
 // table of contents
 
