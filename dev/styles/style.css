@@ -564,7 +564,6 @@ img.logotype {
   height: 128px;
   z-index: 999;
 }
-<<<<<<< HEAD
 input[type=range] {
   -webkit-appearance: none;
   position: absolute;
@@ -575,43 +574,12 @@ input[type=range] {
   outline: 0;
 }
 input[type='range']::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  margin: -18px 0 0 0;
-  width: 10px;
-  height: 10px;
-  background: #5b827e;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  cursor: pointer;
-=======
-.uh-body {
-  top: 10%;
-  position: absolute;
-  width: 100%;
-  height: 88vh;
-  z-index: 99999;
-}
-.uh-body__prev {
-  position: absolute;
-  width: 50%;
-  left: 0;
-  height: 100%;
-  background: 0;
-}
-.uh-body__next {
-  position: absolute;
-  width: 50%;
-  right: 0;
-  height: 100%;
-  background: 0;
-}
-li.wowbook-collapsed {
-  display: block !important;
-}
-ul.wowbook-toc-items {
-  margin-bottom: 20px;
-  display: block !important;
-  height: auto;
-  overflow: hidden;
->>>>>>> 9d8d121590ff238b66e2e594633d53eefbc7fa10
+  -webkit-appearance: none !important;
+  margin: -18px 0 0 0 !important;
+  width: 10px !important;
+  height: 10px !important;
+  background: #5b827e !important;
+  -webkit-transform: rotate(45deg) !important;
+          transform: rotate(45deg) !important;
+  cursor: pointer !important;
 }
