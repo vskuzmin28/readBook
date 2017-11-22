@@ -575,9 +575,11 @@ input[type=range] {
 }
 input[type='range']::-webkit-slider-thumb {
   -webkit-appearance: none !important;
-  margin: -48px 0 0 0 !important;
-  width: 40px !important;
-  height: 40px !important;
-  background: url('../img/tromb.png') no-repeat;
+  margin: -32px 0 0 -10px !important;
+  width: 20px !important;
+  height: 20px !important;
+  background: #5b827e !important;
+  -webkit-transform: rotate(45deg) !important;
+          transform: rotate(45deg) !important;
   cursor: pointer !important;
 }
