@@ -296,6 +296,49 @@ p {
   margin: 30px 0;
   height: 28px;
 }
+.keyboard__panel__key-putin-item {
+  margin-right: 16px;
+  float: left;
+}
+.keyboard__panel__key-putin-item label {
+  vertical-align: middle;
+  display: inline-block;
+  font: 14px 'tahoma' !important;
+  color: #fff !important;
+}
+.keyboard__panel__key-putin-showContent {
+  float: left;
+  margin-left: 40px;
+}
+.keyboard__panel__key-putin-showContent input[type=text] {
+  width: 40px;
+  margin-left: 10px;
+  display: inline-block;
+  height: 20px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  border: 0;
+  outline: 0;
+  font: 12px 'tahoma';
+  text-align: center;
+  line-height: 20px;
+}
+.keyboard__panel__key-putin-showContent label {
+  float: left;
+  vertical-align: middle;
+  font: 14px 'tahoma' !important;
+  color: #fff !important;
+}
+.keyboard__panel__key-putin-showContent p {
+  margin-left: 10px;
+  float: right;
+  font: 12px 'tahoma';
+  color: #fff;
+  line-height: 18px;
+}
+.hide {
+  display: none;
+}
 .keyboard__panel__key {
   margin-left: 29px;
   float: right;

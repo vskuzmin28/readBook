@@ -53,6 +53,70 @@ html(lang='ru')
 
                   .keyboard__panel
 
+                    form(action="/" method="post")
+
+                      // item
+
+                      .keyboard__panel__key-putin-item
+                        input#putinOne(type="radio")
+                        label(for="putinOne")
+                          | default
+
+                      // item
+
+                      .keyboard__panel__key-putin-item
+                        input#putinTwo(type="radio")
+                        label(for="putinTwo")
+                          | custom
+
+                      // item
+
+                      .keyboard__panel__key-putin-item
+                        input#putinDisableMargins(type="checkbox")
+                        label(for="putinDisableMargins")
+                          | disable margins
+
+                      // bodyBuilder
+
+                      .keyboard__panel__key-putin-showContentBody.hide
+
+                        // item
+
+                        .keyboard__panel__key-putin-showContent
+                          label
+                            | w:                        
+                          input(type="text" placeholder="")
+                          p
+                            | px  
+
+                        // item
+
+                        .keyboard__panel__key-putin-showContent
+                          label
+                            | h:
+                          input(type="text" placeholder="")
+                          p
+                            | px 
+
+                      // bodyBuilder
+
+                      .keyboard__panel__key-putin-showContentBody
+
+                        // item
+
+                        .keyboard__panel__key-putin-showContent
+                          label
+                            | select format: 
+                          select
+                            option
+                              | A0
+                            option
+                              | A1
+                            option
+                              | A2
+
+
+
                     .keyboard__panel__key
                       img(src="../img/icons/icon-close-white.png" alt="@@")
 
